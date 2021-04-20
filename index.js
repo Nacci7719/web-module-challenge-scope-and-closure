@@ -28,11 +28,19 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  
+
+     Answer: The example "counter1 code" is a closer because it is a function within a function.
+             The example "counter2 code" is a closer because it  is a function that uses a variable from outside of it's own
+             function scope.
   2. Which of the two uses a closure? How can you tell?
+
+     Answer: They both use closers the inner function in example counter1 code is a closer and the function in counter2 code is a 
+             closer because it uses variable outside of its function scope.
   
-  3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+  3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better?
+  
+     Answer: Exapmle counter1 code would be preferable if you did not want specific variables to be accessed. Example counter2 code is preferable
+     if you do want your variables accessable on the Global scope.
 */
 
 // counter1 code
