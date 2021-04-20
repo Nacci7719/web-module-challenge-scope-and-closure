@@ -38,7 +38,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
              closer because it uses variable outside of its function scope.
   
   3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better?
-  
+
      Answer: Exapmle counter1 code would be preferable if you did not want specific variables to be accessed. Example counter2 code is preferable
      if you do want your variables accessable on the Global scope.
 */
@@ -70,8 +70,8 @@ Use the inning function below to do the following:
 NOTE: This will be a callback function for the tasks below
 */
 
-function inning(/*Code Here*/){
-    /*Code Here*/
+function inning(){
+    return Math.floor(Math.random() * Math.floor(3));
 }
 
 
